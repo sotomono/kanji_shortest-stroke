@@ -15,7 +15,7 @@
 
 しかし、ここから任意の漢字を探すのは困難です。そこで、任意の漢字を入力すると自動でKanjiVGの該当ページのリンクを取得できるサイトを作りました。ぜひ使ってみてください。
 
-KanjiVGのURL取得サイト：[https://sotomono.github.io/KanjiVG-URL_Quick-Acquisition/](https://sotomono.github.io/KanjiVG-URL_Quick-Acquisition/)
+[KanjiVGのURL取得サイト](https://sotomono.github.io/KanjiVG-URL_Quick-Acquisition/)
 
 ## ファイル構成
 ・index.html
