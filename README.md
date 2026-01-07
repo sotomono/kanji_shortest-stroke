@@ -24,7 +24,6 @@ KanjiVGのURL取得サイト：[https://sotomono.github.io/KanjiVG-URL_Quick-Acq
 
 ## ライセンス
 
-このプロジェクトは、コードの全てをGoogle Antigravityによって生成しましたが、
 すべて [MITライセンス](https://opensource.org/licenses/MIT) のもとで公開します。  
 自由にご利用ください。(詳しくは「LICENSE」ファイルをご覧ください。)
 
@@ -33,4 +32,4 @@ KanjiVGのURL取得サイト：[https://sotomono.github.io/KanjiVG-URL_Quick-Acq
 作ったひと：sotomono(19)
 
 [前作](https://github.com/sotomono/Flick-Code_DecryptionTool)のこの欄にて、「来年こそはプログラミング言語習得に力を入れます」と宣言しましたが、AIの力が凄すぎていまいち言語の勉強に意味を見いだせなくなりつつあります。
-今回試しにGoogle Antigravityでサイトを作成しましたが、修正を重ねて3時間ほどでこのクオリティになって驚愕でした。きっとこれからも進歩していくことでしょうね…おそろしや。とはいえ、完全に自分でコードを書いてサイトを作る夢はまだ諦めていません。
+このサイトもGoogle Antigravityで作成しましたが、修正を重ねて3時間ほどでこのクオリティになって驚愕でした。きっとこれからも進歩していくことでしょうね…おそろしや。とはいえ、完全に自分でコードを書いてサイトを作る夢はまだ諦めていません。
