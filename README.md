@@ -13,7 +13,7 @@
 ## 漢字のSVGファイルはどこで手に入る？
 [KanjiVG](https://github.com/KanjiVG/kanjivg)で手に入ります。
 
-しかし、ここから任意の漢字を探すのは困難です。そこで、任意の漢字を入力すると[自動でKanjiVGの該当ページのリンクを取得できるサイト](https://sotomono.github.io/KanjiVG-URL_Quick-Acquisition/)を作りました。ぜひ使ってみてください。
+しかし、ここから任意の漢字を探すのは困難です。そこで、任意の漢字を入力すると自動でKanjiVGの[該当ページのリンクを取得できるサイト](https://sotomono.github.io/KanjiVG-URL_Quick-Acquisition/)を作りました。ぜひ使ってみてください。
 
 ## ファイル構成
 ・index.html
