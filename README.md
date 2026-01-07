@@ -4,7 +4,7 @@
 [漢字のSVGファイルへのURL取得サイト](https://sotomono.github.io/KanjiVG-URL_Quick-Acquisition/)と併用すると便利です。
 
 ## 使い方
-①[https://sotomono.github.io/kanji_shortest-stroke/](https://sotomono.github.io/kanji_shortest-stroke/) にアクセスしてください。
+①[漢字最短書き順比較サイト](https://sotomono.github.io/kanji_shortest-stroke/) にアクセスしてください。
 
 ②漢字のSVGファイルをアップロードしてください。
 
