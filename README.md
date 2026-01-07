@@ -2,7 +2,7 @@
 議←この漢字って、書くの面倒くさくない？そんなときはこのサイトで最速の書き順を調べよう！！
 
 ## 使い方
-①[]（リンク）にアクセスしてください。
+①[https://sotomono.github.io/kanji_shortest-stroke/](https://sotomono.github.io/kanji_shortest-stroke/)にアクセスしてください。
 
 ②漢字のSVGファイルをアップロードしてください。
 
