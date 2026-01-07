@@ -16,17 +16,11 @@
 KanjiVGのURL取得サイト：[]（リンク）
 
 ## ファイル構成
-★漢字最短書き順比較サイト
-
 ・index.html
 
 ・script.js
 
 ・style.css
-
-★KanjiVGのURL取得サイト
-
-・KanjiVG_URL.html
 
 ## ライセンス
 
