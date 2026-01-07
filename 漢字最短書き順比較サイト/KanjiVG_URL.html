@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ja">
+<!--
+  このファイルは KanjiVG の SVG ページへ
+  素早くアクセスするためのクイックツールです。
+
+  構成：
+  1. HTML : 画面に何を置くか
+  2. CSS  : 見た目・配置
+  3. JS   : 「取得」ボタンを押したときの処理
+-->
+
+<meta charset="utf-8">
+<!-- 日本語を安全に扱うための文字コード指定 -->
+
+<title>KanjiVG Quick Access</title>
+<!-- ブラウザのタブに表示されるタイトル -->
+
+<style>
+  /*
+    ===== 全体レイアウト =====
+    body を flex にして、中央に container を置く
+  */
+  body {
+    font-family: "Hiragino Kaku Gothic ProN", system-ui, sans-serif;
+    background: #4ed2a9;
+    min-height: 100vh;
+    margin: 0;
+
+    /* 画面中央配置の要 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /*
+    ===== メインコンテナ =====
+    ツール本体の箱
+  */
+  .container {
+    background: #ffffff;
+    padding: 2.2rem 2.5rem;
+    box-shadow: 0 8px 24px rgba(215, 89, 89, 0.08);
+    width: 420px; /* ツールの横幅。好みで調整 */
+  }
+
+  h1 {
+    font-size: 1.25rem;
+    margin-bottom: 1.2rem;
+    text-align: center;
+  }
+
+  /*
+    ===== 漢字入力欄 =====
+    1文字を大きく、中央に表示
+  */
+  input {
+    font-size: 2.4rem;
+    width: 100%;
+    text-align: center;
+    padding: .4rem;
+    margin-bottom: 1rem;
+  }
+
+  /*
+    ===== 取得ボタン =====
+    明示的に操作させるためのワンアクション
+  */
+  button {
+    width: 30%;
+    padding: .6rem;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+
+  /*
+    ===== 結果表示エリア =====
+    Unicode やファイル名など「データ感」を出すため等幅フォント
+  */
+  .info {
+    margin-top: 1.2rem;
+    font-family: monospace;
+    font-size: .9rem;
+    line-height: 1.5;
+  }
+
+  .info a {
+    display: inline-block;
+    margin-top: .4rem;
+  }
+</style>
+
+<body>
+  <div class="container">
+    <h1>KanjiVG クイックアクセス</h1>
+
+    <!--
+      漢字入力欄
+      maxlength=1 により1文字のみ入力可能
+      複数字対応したくなったら削除する
+    -->
+    <input id="kanji" placeholder="漢字を入力" maxlength="1">
+
+    <!--
+      取得ボタン
+      JavaScript 側で click イベントを拾っている
+    -->
+    <button id="go">取得</button>
+
+    <!--
+      結果表示エリア
+      JavaScript が innerHTML で内容を書き込む
+    -->
+    <div class="info" id="info"></div>
+  </div>
+
+<script>
+  /*
+    ===== DOM要素の取得 =====
+    HTMLで付けた id を JS から参照する
+  */
+  const input = document.getElementById("kanji");
+  const info = document.getElementById("info");
+  const button = document.getElementById("go");
+
+  /*
+    ===== ボタンが押されたときの処理 =====
+    「即時生成」ではなく、明示的な操作にしている
+  */
+  button.addEventListener("click", () => {
+    // 入力欄の文字を取得
+    const ch = input.value;
+
+    /*
+      ===== 漢字 → KanjiVGファイル名変換 =====
+      codePointAt(0) : Unicodeコードポイント（数値）
+      toString(16)   : 16進数文字列に変換
+      padStart(5)    : 5桁になるまで0埋め
+
+      例：議 → 8b70 → 08b70
+    */
+    const code = ch.codePointAt(0)
+      .toString(16)
+      .padStart(5, "0");
+
+    /*
+      KanjiVG の GitHub 表示ページ（blob）
+      raw や iframe は使わない方針
+    */
+    const url =
+      `https://github.com/KanjiVG/kanjivg/blob/master/kanji/${code}.svg`;
+
+    /*
+      ===== 結果の表示 =====
+      表示項目を増減したい場合はここを編集↓
+    */
+    info.innerHTML = `
+      Unicode: U+${code.toUpperCase()}<br>
+      File: ${code}.svg<br>
+      <a href="${url}" target="_blank">KanjiVGページを開く</a>
+    `;
+  });
+</script>
+</body>
+</html>
