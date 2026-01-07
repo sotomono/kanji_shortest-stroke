@@ -1,7 +1,7 @@
 # 漢字最短書き順比較サイト
 議←この漢字って、書くの面倒くさくない？そんなときはこのサイトで最速の書き順を調べよう！！
 
-[https://sotomono.github.io/KanjiVG-URL_Quick-Acquisition/](https://sotomono.github.io/KanjiVG-URL_Quick-Acquisition/)と併用すると便利です。
+[漢字のSVGファイルへのURL取得サイト](https://sotomono.github.io/KanjiVG-URL_Quick-Acquisition/)と併用すると便利です。
 
 ## 使い方
 ①[https://sotomono.github.io/kanji_shortest-stroke/](https://sotomono.github.io/kanji_shortest-stroke/) にアクセスしてください。
