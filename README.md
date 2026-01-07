@@ -16,7 +16,7 @@
 KanjiVGのURL取得サイト：[]（リンク）
 
 ## ファイル構成
-漢字最短書き順比較サイト
+★漢字最短書き順比較サイト
 
 ・index.html
 
@@ -24,7 +24,7 @@ KanjiVGのURL取得サイト：[]（リンク）
 
 ・style.css
 
-KanjiVGのURL取得サイト
+★KanjiVGのURL取得サイト
 
 ・KanjiVG_URL.html
 
