@@ -24,7 +24,7 @@ KanjiVGのURL取得サイト：[https://sotomono.github.io/KanjiVG-URL_Quick-Acq
 
 ## ライセンス
 
-このプロジェクトは、漢字最短書き順比較サイトのコードをAntigravity、KanjiVGのURL取得サイトの大部分をChatGPTによって生成しましたが、
+このプロジェクトは、コードの全てをGoogle Antigravityによって生成しましたが、
 すべて [MITライセンス](https://opensource.org/licenses/MIT) のもとで公開します。  
 自由にご利用ください。(詳しくは「LICENSE」ファイルをご覧ください。)
 
