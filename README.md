@@ -1,5 +1,5 @@
 # 漢字最短書き順比較サイト
-画数が多い漢字って、書くの面倒くさくない？そんなときはこのサイトで最速の書き順を調べよう！！
+画数が多い漢字って、書くの面倒くさくない？そんなときは[このサイト](https://sotomono.github.io/kanji_shortest-stroke/) で最速の書き順を調べよう！！
 
 [漢字のSVGファイルへのURL取得サイト](https://sotomono.github.io/KanjiVG-URL_Quick-Acquisition/)と併用すると便利です。
 
